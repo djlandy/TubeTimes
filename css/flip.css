@@ -1,0 +1,58 @@
+﻿    .container {
+      background: #000;
+    
+        -webkit-perspective: 800px;
+         -moz-perspective: 800px;
+           -o-perspective: 800px;
+              perspective: 800px;
+    }
+
+    #main {
+    background: -webkit-gradient(linear,left top,right top,from(#c5ccd4),color-stop(71%, #c5ccd4),color-stop(72%, #cbd2d8),to(#cbd2d8));
+    background-image: -ms-linear-gradient(top right, #c5ccd4 0%, #c5ccd4 71%, #cbd2d8 72%, #cbd2d8 100%);
+        -webkit-transition: -webkit-transform 1s;
+         -moz-transition: -moz-transform 1s;
+           -o-transition: -o-transform 1s;
+              transition: transform 1s;
+      -webkit-transform-style: preserve-3d;
+         -moz-transform-style: preserve-3d;
+           -o-transform-style: preserve-3d;
+              transform-style: preserve-3d;
+      -webkit-transform-origin: right center;
+         -moz-transform-origin: right center;
+           -o-transform-origin: right center;
+              transform-origin: right center;
+              -webkit-backface-visibility: hidden;
+         -moz-backface-visibility: hidden;
+           -o-backface-visibility: hidden;
+              backface-visibility: hidden;
+    }
+
+    #main.flipped {
+      -webkit-transform: translateX( -100% ) rotateY( -180deg );
+         -moz-transform: translateX( -100% ) rotateY( -180deg );
+           -o-transform: translateX( -100% ) rotateY( -180deg );
+              transform: translateX( -100% ) rotateY( -180deg );
+              -webkit-backface-visibility: hidden;
+         -moz-backface-visibility: hidden;
+           -o-backface-visibility: hidden;
+              backface-visibility: hidden;
+    }
+
+    #main div{
+      -webkit-backface-visibility: hidden;
+         -moz-backface-visibility: hidden;
+           -o-backface-visibility: hidden;
+              backface-visibility: hidden;
+    }
+
+    #main .front {
+      
+    }
+
+    #main .back {
+      -webkit-transform: rotateY( 180deg );
+         -moz-transform: rotateY( 180deg );
+           -o-transform: rotateY( 180deg );
+              transform: rotateY( 180deg );
+    }

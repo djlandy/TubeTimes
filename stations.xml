@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ROOT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <L Code="B" N="Bakerloo">
+    <S Code="BST" N="Baker Street" />
+    <S Code="CHX" N="Charing Cross" />
+    <S Code="ERB" N="Edgware Road (Bakerloo)" />
+    <S Code="ELE" N="Elephant and Castle" />
+    <S Code="EMB" N="Embankment" />
+    <S Code="HSD" N="Harlesden" />
+    <S Code="HAW" N="Harrow and Wealdstone" />
+    <S Code="KGN" N="Kensal Green" />
+    <S Code="KNT" N="Kenton" />
+    <S Code="KPK" N="Kilburn Park" />
+    <S Code="LAM" N="Lambeth North" />
+    <S Code="MDV" N="Maida Vale" />
+    <S Code="MYB" N="Marylebone" />
+    <S Code="NWM" N="North Wembley" />
+    <S Code="OXC" N="Oxford Circus" />
+    <S Code="PAD" N="Paddington" />
+    <S Code="PIC" N="Piccadilly Circus" />
+    <S Code="QPK" N="Queen's Park" />
+    <S Code="RPK" N="Regent's Park" />
+    <S Code="SKT" N="South Kenton" />
+    <S Code="SPK" N="Stonebridge Park" />
+    <S Code="WAR" N="Warwick Avenue" />
+    <S Code="WLO" N="Waterloo" />
+    <S Code="WEM" N="Wembley Central" />
+    <S Code="WJN" N="Willesden Junction" />
+  </L>
+
+  <L Code="C" N="Central">
+    <S Code="BNK" N="Bank"/>
+    <S Code="BDE" N="Barkingside"/>
+    <S Code="BNG" N="Bethnal Green"/>
+    <S Code="BDS" N="Bond Street"/>
+    <S Code="BHL" N="Buckhurst Hill"/>
+    <S Code="CYL" N="Chancery Lane"/>
+    <S Code="CHG" N="Chigwell"/>
+    <S Code="DEB" N="Debden"/>
+    <S Code="EBY" N="Ealing Broadway"/>
+    <S Code="EAC" N="East Acton"/>
+    <S Code="EPP" N="Epping"/>
+    <S Code="FLP" N="Fairlop"/>
+    <S Code="GHL" N="Gants Hill"/>
+    <S Code="GRH" N="Grange Hill"/>
+    <S Code="GFD" N="Greenford"/>
+    <S Code="HAI" N="Hainault"/>
+    <S Code="HLN" N="Hanger Lane"/>
+    <S Code="HOL" N="Holborn"/>
+    <S Code="HPK" N="Holland Park"/>
+    <S Code="LAN" N="Lancaster Gate"/>
+    <S Code="LEY" N="Leyton"/>
+    <S Code="LYS" N="Leytonstone"/>
+    <S Code="LST" N="Liverpool Street"/>
+    <S Code="LTN" N="Loughton"/>
+    <S Code="MAR" N="Marble Arch"/>
+    <S Code="MLE" N="Mile End"/>
+    <S Code="NEP" N="Newbury Park"/>
+    <S Code="NAC" N="North Acton"/>
+    <S Code="NHT" N="Northolt"/>
+    <S Code="NHG" N="Notting Hill Gate"/>
+    <S Code="OXC" N="Oxford Circus"/>
+    <S Code="PER" N="Perivale"/>
+    <S Code="QWY" N="Queensway"/>
+    <S Code="RED" N="Redbridge"/>
+    <S Code="ROD" N="Roding Valley"/>
+    <S Code="RUG" N="Ruislip Gardens"/>
+    <S Code="SBC" N="Shepherd’s Bush"/>
+    <S Code="SNB" N="Snaresbrook"/>
+    <S Code="SRP" N="South Ruislip"/>
+    <S Code="SWF" N="South Woodford"/>
+    <S Code="STP" N="St Paul’s"/>
+    <S Code="SFD" N="Stratford"/>
+    <S Code="THB" N="Theydon Bois"/>
+    <S Code="TCR" N="Tottenham Court Road"/>
+    <S Code="WAN" N="Wanstead"/>
+    <S Code="WAC" N="West Acton"/>
+    <S Code="WRP" N="West Ruislip"/>
+    <S Code="WCT" N="White City"/>
+    <S Code="WFD" N="Woodford"/>
+  </L>
+  <L Code="D" N="District">
+    <S Code="ACT" N="Acton Town"/>
+    <S Code="ALE" N="Aldgate East"/>
+    <S Code="BKG" N="Barking"/>
+    <S Code="BCT" N="Barons Court"/>
+    <S Code="BEC" N="Becontree"/>
+    <S Code="BLF" N="Blackfriars"/>
+    <S Code="BWR" N="Bow Road"/>
+    <S Code="BBB" N="Bromley-by-Bow"/>
+    <S Code="CST" N="Cannon Street"/>
+    <S Code="CHP" N="Chiswick Park"/>
+    <S Code="DGE" N="Dagenham East"/>
+    <S Code="DGH" N="Dagenham Heathway"/>
+    <S Code="EBY" N="Ealing Broadway"/>
+    <S Code="ECM" N="Ealing Common"/>
+    <S Code="ECT" N="Earl’s Court"/>
+    <S Code="EHM" N="East Ham"/>
+    <S Code="EPY" N="East Putney"/>
+    <S Code="ERD" N="Edgware Road (H &amp; C)"/>
+    <S Code="EPK" N="Elm Park"/>
+    <S Code="EMB" N="Embankment"/>
+    <S Code="FBY" N="Fulham Broadway"/>
+    <S Code="GRD" N="Gloucester Road"/>
+    <S Code="GUN" N="Gunnersbury"/>
+    <S Code="HMD" N="Hammersmith (District and Picc)"/>
+    <S Code="HST" N="High Street Kensington"/>
+    <S Code="HCH" N="Hornchurch"/>
+    <S Code="KEW" N="Kew Gardens"/>
+    <S Code="MAN" N="Mansion House"/>
+    <S Code="MLE" N="Mile End"/>
+    <S Code="MON" N="Monument"/>
+    <S Code="OLY" N="Olympia"/>
+    <S Code="PGR" N="Parsons Green"/>
+    <S Code="PLW" N="Plaistow"/>
+    <S Code="PUT" N="Putney Bridge"/>
+    <S Code="RCP" N="Ravenscourt Park"/>
+    <S Code="RMD" N="Richmond"/>
+    <S Code="SSQ" N="Sloane Square"/>
+    <S Code="SKN" N="South Kensington"/>
+    <S Code="SFS" N="Southfields"/>
+    <S Code="SJP" N="St. James's Park"/>
+    <S Code="STB" N="Stamford Brook"/>
+    <S Code="STG" N="Stepney Green"/>
+    <S Code="TEM" N="Temple"/>
+    <S Code="THL" N="Tower Hill"/>
+    <S Code="TGR" N="Turnham Green"/>
+    <S Code="UPM" N="Upminster"/>
+    <S Code="UPB" N="Upminster Bridge"/>
+    <S Code="UPY" N="Upney"/>
+    <S Code="UPK" N="Upton Park"/>
+    <S Code="VIC" N="Victoria"/>
+    <S Code="WBT" N="West Brompton"/>
+    <S Code="WHM" N="West Ham"/>
+    <S Code="WKN" N="West Kensington"/>
+    <S Code="WMS" N="Westminster"/>
+    <S Code="WCL" N="Whitechapel"/>
+    <S Code="WDN" N="Wimbledon"/>
+    <S Code="WMP" N="Wimbledon Park"/>
+  </L>
+  <L Code="H" N="Hammersmith &amp; City, Circle">
+    <S Code="ALD" N="Aldgate"/>
+    <S Code="ALE" N="Aldgate East"/>
+    <S Code="BST" N="Baker Street"/>
+    <S Code="BAR" N="Barbican"/>
+    <S Code="BKG" N="Barking"/>
+    <S Code="BLF" N="Blackfriars"/>
+    <S Code="BWR" N="Bow Road"/>
+    <S Code="BBB" N="Bromley-by-Bow"/>
+    <S Code="CST" N="Cannon Street"/>
+    <S Code="EHM" N="East Ham"/>
+    <S Code="ERD" N="Edgware Road (H &amp; C)"/>
+    <S Code="EMB" N="Embankment"/>
+    <S Code="ESQ" N="Euston Square"/>
+    <S Code="FAR" N="Farringdon"/>
+    <S Code="GRD" N="Gloucester Road"/>
+    <S Code="GPS" N="Great Portland Street"/>
+    <S Code="HMS" N="Hammersmith"/>
+    <S Code="HST" N="High Street Kensington"/>
+    <S Code="KXX" N="King's Cross St Pancras"/>
+    <S Code="LST" N="Liverpool Street"/>
+    <S Code="MAN" N="Mansion House"/>
+    <S Code="MLE" N="Mile End"/>
+    <S Code="MON" N="Monument"/>
+    <S Code="MGT" N="Moorgate"/>
+    <S Code="PAD" N="Paddington"/>
+    <S Code="PLW" N="Plaistow"/>
+    <S Code="SSQ" N="Sloane Square"/>
+    <S Code="SKN" N="South Kensington"/>
+    <S Code="SJP" N="St. James's Park"/>
+    <S Code="STG" N="Stepney Green"/>
+    <S Code="TEM" N="Temple"/>
+    <S Code="THL" N="Tower Hill"/>
+    <S Code="UPK" N="Upton Park"/>
+    <S Code="VIC" N="Victoria"/>
+    <S Code="WHM" N="West Ham"/>
+    <S Code="WMS" N="Westminster"/>
+    <S Code="WCL" N="Whitechapel"/>
+  </L>
+  <L Code="J" N="Jubilee">
+    <S Code="BST" N="Baker Street"/>
+    <S Code="BER" N="Bermondsey"/>
+    <S Code="BDS" N="Bond Street"/>
+    <S Code="CWR" N="Canada Water"/>
+    <S Code="CWF" N="Canary Wharf"/>
+    <S Code="CNT" N="Canning Town"/>
+    <S Code="CPK" N="Canons Park"/>
+    <S Code="DHL" N="Dollis Hill"/>
+    <S Code="FRD" N="Finchley Road"/>
+    <S Code="GPK" N="Green Park"/>
+    <S Code="KIL" N="Kilburn"/>
+    <S Code="KBY" N="Kingsbury"/>
+    <S Code="LON" N="London Bridge"/>
+    <S Code="NEA" N="Neasden"/>
+    <S Code="NGW" N="North Greenwich"/>
+    <S Code="QBY" N="Queensbury"/>
+    <S Code="SWK" N="Southwark"/>
+    <S Code="SJW" N="St John’s Wood"/>
+    <S Code="STA" N="Stanmore"/>
+    <S Code="SFD" N="Stratford"/>
+    <S Code="SWC" N="Swiss Cottage"/>
+    <S Code="WLO" N="Waterloo"/>
+    <S Code="WPK" N="Wembley Park"/>
+    <S Code="WHM" N="West Ham"/>
+    <S Code="WHD" N="West Hampstead"/>
+    <S Code="WMS" N="Westminster"/>
+    <S Code="WLG" N="Willesden Green"/>
+  </L>
+  <L Code="M" N="Metropolitan">
+    <S Code="ALD" N="Aldgate"/>
+    <S Code="AME" N="Amersham"/>
+    <S Code="BST" N="Baker Street"/>
+    <S Code="BAR" N="Barbican"/>
+    <S Code="CLF" N="Chalfont and Latimer"/>
+    <S Code="CWD" N="Chorleywood"/>
+    <S Code="CLW" N="Colliers Wood"/>
+    <S Code="CRX" N="Croxley"/>
+    <S Code="ETE" N="Eastcote"/>
+    <S Code="ESQ" N="Euston Square"/>
+    <S Code="FAR" N="Farringdon"/>
+    <S Code="FRD" N="Finchley Road"/>
+    <S Code="GPS" N="Great Portland Street"/>
+    <S Code="HOH" N="Harrow on the Hill"/>
+    <S Code="HDN" N="Hillingdon"/>
+    <S Code="ICK" N="Ickenham"/>
+    <S Code="KXX" N="King's Cross St Pancras"/>
+    <S Code="LST" N="Liverpool Street"/>
+    <S Code="MPK" N="Moor Park"/>
+    <S Code="MGT" N="Moorgate"/>
+    <S Code="NHR" N="North Harrow"/>
+    <S Code="NWP" N="Northwick Park"/>
+    <S Code="NWD" N="Northwood"/>
+    <S Code="NWH" N="Northwood Hills"/>
+    <S Code="PIN" N="Pinner"/>
+    <S Code="RLN" N="Rayners Lane"/>
+    <S Code="RKY" N="Rickmansworth"/>
+    <S Code="RUI" N="Ruislip"/>
+    <S Code="RUM" N="Ruislip Manor"/>
+    <S Code="UXB" N="Uxbridge"/>
+    <S Code="WAT" N="Watford"/>
+    <S Code="WPK" N="Wembley Park"/>
+    <S Code="WHR" N="West Harrow"/>
+  </L>
+  <L Code="N" N="Northern">
+    <S Code="ANG" N="Angel"/>
+    <S Code="ARC" N="Archway"/>
+    <S Code="BAL" N="Balham"/>
+    <S Code="BNK" N="Bank"/>
+    <S Code="BPK" N="Belsize Park"/>
+    <S Code="BOR" N="Borough"/>
+    <S Code="BTX" N="Brent Cross"/>
+    <S Code="BUR" N="Burnt Oak"/>
+    <S Code="CTN" N="Camden Town"/>
+    <S Code="CHF" N="Chalk Farm"/>
+    <S Code="CHX" N="Charing Cross"/>
+    <S Code="CPC" N="Clapham Common"/>
+    <S Code="CPN" N="Clapham North"/>
+    <S Code="CPS" N="Clapham South"/>
+    <S Code="COL" N="Colindale"/>
+    <S Code="CLW" N="Colliers Wood"/>
+    <S Code="EFY" N="East Finchley"/>
+    <S Code="EDG" N="Edgware"/>
+    <S Code="ELE" N="Elephant and Castle"/>
+    <S Code="EMB" N="Embankment"/>
+    <S Code="EUS" N="Euston"/>
+    <S Code="FYC" N="Finchley Central"/>
+    <S Code="GGR" N="Golders Green"/>
+    <S Code="GST" N="Goodge Street"/>
+    <S Code="HMP" N="Hampstead"/>
+    <S Code="HND" N="Hendon Central"/>
+    <S Code="HBT" N="High Barnet"/>
+    <S Code="HIG" N="Highgate"/>
+    <S Code="KEN" N="Kennington"/>
+    <S Code="KTN" N="Kentish Town"/>
+    <S Code="KXX" N="King's Cross St Pancras"/>
+    <S Code="LSQ" N="Leicester Square"/>
+    <S Code="LON" N="London Bridge"/>
+    <S Code="MHE" N="Mill Hill East"/>
+    <S Code="MGT" N="Moorgate"/>
+    <S Code="MOR" N="Morden"/>
+    <S Code="MCR" N="Mornington Crescent"/>
+    <S Code="OLD" N="Old Street"/>
+    <S Code="OVL" N="Oval"/>
+    <S Code="SWM" N="South Wimbledon"/>
+    <S Code="STK" N="Stockwell"/>
+    <S Code="TBE" N="Tooting Bec"/>
+    <S Code="TBY" N="Tooting Broadway"/>
+    <S Code="TCR" N="Tottenham Court Road"/>
+    <S Code="TOT" N="Totteridge and Whetstone"/>
+    <S Code="TPK" N="Tufnell Park"/>
+    <S Code="WST" N="Warren Street"/>
+    <S Code="WLO" N="Waterloo"/>
+    <S Code="WFY" N="West Finchley"/>
+    <S Code="WSP" N="Woodside Park"/>
+  </L>
+  <L Code="P" N="Piccadilly">
+    <S Code="ACT" N="Acton Town"/>
+    <S Code="ALP" N="Alperton"/>
+    <S Code="AGR" N="Arnos Grove"/>
+    <S Code="ARL" N="Arsenal"/>
+    <S Code="BCT" N="Barons Court"/>
+    <S Code="BOS" N="Boston Manor"/>
+    <S Code="BGR" N="Bounds Green"/>
+    <S Code="CRD" N="Caledonian Road"/>
+    <S Code="CFS" N="Cockfosters"/>
+    <S Code="COV" N="Covent Garden"/>
+    <S Code="ECM" N="Ealing Common"/>
+    <S Code="ECT" N="Earl’s Court"/>
+    <S Code="ETE" N="Eastcote"/>
+    <S Code="FPK" N="Finsbury Park"/>
+    <S Code="GRD" N="Gloucester Road"/>
+    <S Code="GPK" N="Green Park"/>
+    <S Code="HMD" N="Hammersmith (District and Picc)"/>
+    <S Code="HTX" N="Hatton Cross"/>
+    <S Code="HTF" N="Heathrow Terminal 4"/>
+    <S Code="HRV" N="Heathrow Terminal 5"/>
+    <S Code="HRC" N="Heathrow Terminals 123"/>
+    <S Code="HDN" N="Hillingdon"/>
+    <S Code="HOL" N="Holborn"/>
+    <S Code="HRD" N="Holloway Road"/>
+    <S Code="HNC" N="Hounslow Central"/>
+    <S Code="HNE" N="Hounslow East"/>
+    <S Code="HNW" N="Hounslow West"/>
+    <S Code="HPC" N="Hyde Park Corner"/>
+    <S Code="ICK" N="Ickenham"/>
+    <S Code="KXX" N="King's Cross St Pancras"/>
+    <S Code="KNB" N="Knightsbridge"/>
+    <S Code="LSQ" N="Leicester Square"/>
+    <S Code="MNR" N="Manor House"/>
+    <S Code="NEL" N="North Ealing"/>
+    <S Code="NFD" N="Northfields"/>
+    <S Code="OAK" N="Oakwood"/>
+    <S Code="OST" N="Osterley"/>
+    <S Code="PRY" N="Park Royal"/>
+    <S Code="PIC" N="Piccadilly Circus"/>
+    <S Code="RLN" N="Rayners Lane"/>
+    <S Code="RUI" N="Ruislip"/>
+    <S Code="RUM" N="Ruislip Manor"/>
+    <S Code="RSQ" N="Russell Square"/>
+    <S Code="SEL" N="South Ealing"/>
+    <S Code="SHR" N="South Harrow"/>
+    <S Code="SKN" N="South Kensington"/>
+    <S Code="SGT" N="Southgate"/>
+    <S Code="SHL" N="Sudbury Hill"/>
+    <S Code="STN" N="Sudbury Town"/>
+    <S Code="TGR" N="Turnham Green"/>
+    <S Code="TPL" N="Turnpike Lane"/>
+    <S Code="UXB" N="Uxbridge"/>
+    <S Code="WGN" N="Wood Green"/>
+  </L>
+  <L Code="V" N="Victoria">
+    <S Code="BHR" N="Blackhorse Road"/>
+    <S Code="BRX" N="Brixton"/>
+    <S Code="EUS" N="Euston"/>
+    <S Code="FPK" N="Finsbury Park"/>
+    <S Code="GPK" N="Green Park"/>
+    <S Code="HBY" N="Highbury and Islington"/>
+    <S Code="KXX" N="King's Cross St Pancras"/>
+    <S Code="OXC" N="Oxford Circus"/>
+    <S Code="PIM" N="Pimlico"/>
+    <S Code="SVS" N="Seven Sisters"/>
+    <S Code="STK" N="Stockwell"/>
+    <S Code="TTH" N="Tottenham Hale"/>
+    <S Code="VUX" N="Vauxhall"/>
+    <S Code="VIC" N="Victoria"/>
+    <S Code="WAL" N="Walthamstow Central"/>
+    <S Code="WST" N="Warren Street"/>
+  </L>
+  <L Code="W" N="Waterloo &amp; City">
+    <S Code="BNK" N="Bank"/>
+    <S Code="WLO" N="Waterloo"/>
+    
+  </L>
+</ROOT>
