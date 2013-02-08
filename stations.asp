@@ -1,27 +1,30 @@
-<%
-    response.ContentType = "text/xml"
-	
-    ' Create an ASP XML parser object
-    set xml0 = Server.CreateObject("Chilkat.Xml")
+﻿<% 
+   
+    l = Request.QueryString("l")
+     
+    Thispage ="http://" & Request.ServerVariables("SERVER_NAME") & Request.ServerVariables("URL")
+    thispage = replace(thispage, "/stations.asp", "")
+    'url = "http://" & Request.ServerVariables("SERVER_NAME") & "/tubetimes/feedz.asp?l=" & l & "&s=" & s
+    
 
-    ' Returns the XML page as a Variant
-    set xml = xml0.HttpGet("http://www.xml-parser.com/companies.xml")
+    set xmldoc = CreateObject("MSXML2.ServerXMLHTTP")
+    xmldoc.open "GET", thispage + "/stations.xml", false
+    xmldoc.send ""
+    set xmlResponse=xmldoc.responseXML
+    set lines=xmlResponse.getElementsByTagName("L")
+    ls = lines.length
+    for r = 0 to ls -1
+        
+        if lines(r).getattribute("Code") = l then
+            set stations=lines(r).getelementsbytagname("S")
+            sns = stations.length
+        end if
+    next
+    response.write("<option value="""" selected=""selected"" data-placeholder=""true"">Select a Station</option>") 
+    
+    for r = 0 to sns - 1 
+        stationcode = stations(r).getattribute("Code")
+        response.write("<option value=" + stationcode + ">" + Stations(r).getattribute("N") + "</option>")
+    next
 
-    ' Sort the company records by name.
-    ascending = True
-    xml.SortRecordsByContent "name", ascending
-
-    ' Sort the fields within each company record by the field name.
-    b = xml.FirstChild2()
-    While b
-        xml.SortByTag ascending
-        b = xml.NextSibling2()
-    Wend
-
-    ' Navigate back to the root.
-    xml.GetRoot2()
-
-    response.write xml.GetXml()
 %>
-
-
