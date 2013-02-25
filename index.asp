@@ -20,14 +20,15 @@ if (l="" or s="") then pick=true else pick=false    %>
 
     <!-- jQuery Mobile js and CSS -->
 
-    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0-rc.1/jquery.mobile-1.3.0-rc.1.min.css" />
-    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
-    <script src="http://code.jquery.com/mobile/1.3.0-rc.1/jquery.mobile-1.3.0-rc.1.min.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
 
-    <!-- Custom js -->
+    <!-- Custom js and css-->
 
     <script src="js/functions.js"></script>
     <link rel="stylesheet" href="css/table-style.css" />
+    <link rel="stylesheet" href="css/custom.css" />
     <link rel="apple-touch-icon" href="icons/tt.png" />
 
 
@@ -62,6 +63,7 @@ if (l="" or s="") then pick=true else pick=false    %>
 
         <div data-role="header" data-position="fixed">
             <h1>Tube Times</h1>
+            
 
         </div>
         <div data-role="content">

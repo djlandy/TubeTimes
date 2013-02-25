@@ -1,0 +1,4 @@
+﻿/* Remove flicker on Android / WebKit  */
+.ui-page {
+  -webkit-backface-visibility: hidden !important;
+}

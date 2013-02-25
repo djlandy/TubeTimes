@@ -14,6 +14,7 @@
 
 
 
+    $.mobile.loading('show');
 
     $.get(newurl, "l=" + l, function (j) {
         $("option", "select#station-pick").remove();
@@ -25,6 +26,7 @@
 
     })
 
+    $.mobile.loading('hide');
 }
 
 function changestation() {
